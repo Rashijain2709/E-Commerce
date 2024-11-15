@@ -1,5 +1,5 @@
 import React from 'react'
-import './Navbar.css'
+import './Navbar.scss'
 import logo from '../../Assets/logo.png'
 import cart_icon from '../../Assets/cart_icon.png'
 import { useState } from 'react'
@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
-    const [menu, setMenu] = useState("shop")
+    const [menu, setMenu] = useState("shop");
 
 
     return (
