@@ -31,7 +31,7 @@ Shopper is a modern **e-commerce** web application built using the **MERN stack*
 
 ## 📺 Screens
 
-- **Homepage**: 🏠 Features new collections for everyone and highlights the latest arrivals.
+- **Home Page**: 🏠 Features new collections for everyone and highlights the latest arrivals.
 - **Product Page**: 📄 Displays product details and allows users to add items to their cart.
 - **Cart Page**: 🛒 Allows users to review their selected items before proceeding to checkout.
 - **Login & Signup Pages**: 🔑 Enables users to create an account or log in to access personalized features.
