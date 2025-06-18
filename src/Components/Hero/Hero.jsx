@@ -13,17 +13,17 @@ const Hero = () => {
                     <div className="hero-hand-icon">
                         <p>new</p>
                         <img src={hand_icon} alt="" />
-                    </div>
+                    </div>  
                     <p>collections</p>
                     <p>for everyone</p>
-                </div>
+                </div> 
                 <div className="hero-latest-btn">
                     <div>Latest Collection</div>
                     <img src={arrow_icon} alt="" />
                 </div>
             </div>
             <div className="hero-right">
-                <img src={hero_image} alt="" />
+                <img src={hero_image} alt="" style={{width: "70%"}}/>
             </div>
         </div>
     )
