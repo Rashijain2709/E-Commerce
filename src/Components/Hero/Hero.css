@@ -52,6 +52,7 @@
 }
 
 .hero-right {
+    width: 700px;
     flex: 1;
     display: flex;
     justify-content: center;
