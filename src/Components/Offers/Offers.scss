@@ -1,0 +1,57 @@
+.offers {
+    width: 65%;
+    height: 60vh;
+    margin: 100px auto;
+    display: flex;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    padding: 0 140px;
+    margin-bottom: 150px;
+
+    &-left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #171717;
+            font-size: 70px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-top: 20px;
+            color: #171717;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        button {
+            width: 282px;
+            height: 70px;
+            background: #ff4141;
+            color: #fff;
+            border: none;
+            border-radius: 35px;
+            font-size: 22px;
+            font-weight: 500;
+            margin-top: 15%;
+            cursor: pointer;
+            transition: background 0.2s;
+
+            &:hover {
+                background: #e63b3b;
+            }
+        }
+    }
+
+    &-right {
+        margin-top: 10%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 50px;
+
+    }
+}
