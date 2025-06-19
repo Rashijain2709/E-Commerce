@@ -1,4 +1,3 @@
-import React from 'react'
 import './Popular.scss'
 import data_product from '../../Constants/data'
 import Item from '../Item/Item'
