@@ -55,5 +55,148 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        img {
+            max-width: 470px;
+            margin-bottom: 5%;
+        }
+    }
+}
+
+@media(max-width:1280px) {
+    .hero {
+    
+        &-left {
+            padding-left: 100px;
+    
+            h2 {
+                font-size: 22px;
+            }
+    
+            p {
+                font-size: 60px;
+            }
+        }
+    
+        &-hand-icon {
+            img {
+                width: 80px;
+            }
+        }
+    
+        &-latest-btn {
+            width: 250px;
+            height: 60px;
+            gap: 10px;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    
+        &-right {
+            img {
+                width: 450px;
+            }
+        }
+    }
+}
+
+@media(max-width:1024px) {
+    .hero {
+    
+        &-left {
+            padding-left: 80px;
+    
+            h2 {
+                font-size: 20px;
+            }
+    
+            p {
+                font-size: 50px;
+            }
+        }
+    
+        &-hand-icon {
+            img {
+                width: 65px;
+            }
+        }
+    
+        &-latest-btn {
+            width: 220px;
+            height: 50px;
+            font-size: 16px;
+        }
+    
+        &-right {
+            img {
+                width: 400px;
+            }
+        }
+    }
+}
+
+@media(max-width:800px) {
+    .hero {
+    
+        &-left {
+            padding-left: 30px;
+    
+            h2 {
+                font-size: 16px;
+            }
+    
+            p {
+                font-size: 40px;
+            }
+        }
+    
+        &-hand-icon {
+            img {
+                width: 50px;
+            }
+        }
+    
+        &-latest-btn {
+            width: 175px;
+            height: 40px;
+            font-size: 13px;
+        }
+    
+        &-right {
+            img {
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    .hero {
+        flex-direction: column;
+        &-left {    
+            h2 {
+                font-size: 18px;
+            }
+    
+            p {
+                font-size: 50px;
+            }
+        }
+    
+        &-hand-icon {
+            img {
+                width: 55px;
+            }
+        }
+    
+        &-latest-btn {
+            width: 200px;
+            height: 45px;
+            font-size: 14px;
+        }
+    
+        &-right {
+            display: none;
+        }
     }
 }
