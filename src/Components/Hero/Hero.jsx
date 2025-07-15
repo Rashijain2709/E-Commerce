@@ -22,7 +22,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hero-right">
-                <img src={hero_image} alt="" style={{width: "70%"}}/>
+                <img src={hero_image} alt=""/>
             </div>
         </div>
     )
