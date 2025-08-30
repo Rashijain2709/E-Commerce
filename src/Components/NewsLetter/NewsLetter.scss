@@ -149,32 +149,29 @@
         }
     }
 }
-@media(max-width:800px) {
+
+@media(max-width:500px) {
     .newsletter {
-        margin-bottom: 30px;
-        height: 35vh;
+        height: 25vh;
+        width: 100%;
+        padding: 0;
+        gap: 15px;
 
         h1 {
-            font-size: 23px;
+            font-size: 18px;
         }
     
         p {
-            font-size: 12px;
+            font-size: 13px;
+            max-width: 200px;
+            text-align: center;
         }
     
         div {
-            width: 400px;
-            height: 40px;
+            width: 290px;
     
             input {
-                width: 200px;
-                font-size: 13px;
-            }
-    
-            button {
-                width: 100px;
-                height: 40px;
-                font-size: 13px;
+                width: 130px;
             }
         }
     }
