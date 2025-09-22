@@ -254,11 +254,15 @@
         margin: 0px 10px;
 
         .product-display-left {
-            gap: 5px;
+            gap: 0px;
+            flex-direction: column-reverse;
+            align-items: center;
 
             .product-display-img-list {
+                flex-direction: row;
+                gap: 6px;
                 img {
-                    height: 85px;
+                    height: 70px;
                 }
             }
 
